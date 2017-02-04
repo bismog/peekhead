@@ -27,6 +27,7 @@ setup(
     url = 'https://github.com/ijustwantgoogle/peekhead',
     package_dir = {'peekhead': ''},
     packages = ['peekhead'],
+    #py_modules=['peekhead'],
     #package_data = {'':['*.cfg', '*.xml']}
     entry_points = {
         'console_scripts': [
